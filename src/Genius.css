@@ -1,0 +1,79 @@
+body{
+    background-color:#687063;
+}
+
+.Genius{
+    justify-content:center;
+    align-items:center;
+
+}
+
+.Head{
+    display:block;
+    width:80%;
+    height:50px;
+    border:2px solid white;
+    color:white;
+    text-align:center;
+    font-family:"Arial", sans-serif;
+    font-weight:bold;
+    margin:auto;
+    background-color:#699496;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.blocos{
+    display:flex;
+    margin-top:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+.Bloco .bloco1{
+    background:#17E873;
+}
+.Bloco{
+    height:200px;
+    width:40%;
+    margin-left:2px;
+    border:2px solid white;
+    margin-top:2px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Placar{
+    background-color:#699496;
+    text-align:center;
+    margin-top:2px;
+    width:20%;
+    height:50px;
+    border:2px solid white;
+    font-family:'Arial', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.ReiniciarBTN{
+    background-color:#699496;
+    text-align:center;
+    margin-top:2px;
+    width:20%;
+    height:54px;
+    border:2px solid white;
+    font-weight:bold;
+    font-family:'Arial', sans-serif;
+    font-size:15px;
+    cursor:pointer;
+    margin-left:2px;
+    color:white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
